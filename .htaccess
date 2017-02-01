@@ -1,0 +1,13 @@
+### PROTECT FILES ###
+<FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log|sh)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+
+RewriteEngine on
+RewriteRule  rob-robson-finger-skateparks index.html
+RewriteRule  about-finger-skateparks about.html
+RewriteRule  blog-finger-skateparks blog.html
+RewriteRule  images-finger-skateparks gallery.html
+RewriteRule  get-in-touch-finger-skateparks contact.html
+RewriteRule  thank-you-for-message confirmation.html

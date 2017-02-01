@@ -1,0 +1,174 @@
+/*hidden elements on laptop screen*/
+@media only screen and (min-width:1024px){
+#nav_icon {
+	display:none;
+}
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width : 0px) and (max-width : 767px) {
+/*****************************************************************************/
+	/*
+	/* Common
+	/*
+	/*****************************************************************************/
+	
+.bg_image{
+	display:none;
+}
+
+
+.main_content{
+	width:90%;
+	#margin: 0 auto;
+}
+
+#logo{
+	padding-bottom:0;
+}
+#logo img{
+	margin-top:10px;
+	width:80%;
+	height:auto;
+}
+
+.menu_list {
+	display:none;
+}	
+.menu_list.open {
+	display:block;
+	
+}
+/*
+.menu_list a::after {
+	display:none;
+}
+*/
+.menu_item {
+	padding-bottom:5px;
+}
+#logo {
+	#background-color:pink;
+	width:70%;
+	margin:10px auto;
+}
+
+.subpage {
+	margin-top:0px;
+	padding-top:0px;
+}
+
+.subpage p {
+	padding:10px;
+	font-size:18px;
+}
+
+.about_info {
+	margin-top:0px;
+}
+
+
+.art_title {
+	margin-top:0px;
+}
+
+/*
+#slider img{
+	width:100%;
+	height:auto;
+}
+
+/******************************** TEAM ****************************/
+
+.team {
+	display:inline-block;
+}
+
+.team_photo {
+	width:50%;
+	height:auto;
+}	
+
+.team_member {
+	width:100%;
+}
+
+.team_info .member_job {
+	font-size:20px;
+	
+}
+
+
+.info_to_user{
+	width:90%;
+	padding:2%;
+}
+
+#form{
+	width:90%;
+	margin-top:10px;
+}
+
+.user_input {
+	margin:5px;
+} 
+
+#submit_button {
+	margin-top:15px;
+}
+
+.user_msg {
+	height:80px;
+}
+
+.contact {
+	margin-bottom:5px;
+}
+#expand_footer{
+	font-size:20px;
+}
+
+.media_item {
+	margin-bottom:5px;
+}
+.icon-facebook:before { font-size:20px; } /* '' */
+.icon-twitter:before {   font-size:20px;} /* '' */
+.icon-instagram:before { font-size:20px;} /* '' */
+.icon-youtube:before { font-size:20px;} /* '' */
+.icon-mail:before {  font-size:20px;} /* '' */
+}
+/* Tablets (portrait) ----------- */
+@media only screen and (min-width : 768px) and (max-width : 1023px){
+/*****************************************************************************/
+	/*
+	/* Common
+	/*
+	/***************************************************************************/
+.bg_image{
+	display:none;
+}
+.main_content{
+	width:90%;
+}
+
+.menu_list {
+	display:none;
+}	
+.menu_list.open {
+	display:block;
+
+}
+
+.menu_item {
+	padding-bottom:10px;
+}
+
+.contact {
+	margin-bottom:10px;
+}
+
+#page_footer {
+	margin-top:15px;
+}
+}
