@@ -128,7 +128,7 @@ body {
 	-moz-transition: .5s ease-in-out;
 	-o-transition: .5s ease-in-out;
 	transition: .5s ease-in-out;
-	#background:pink;
+	
 }
 
 #nav_icon span {
@@ -219,7 +219,7 @@ body {
 
 .menu_list a:hover{
 	color:#00ffff;
-	#border-bottom:3px solid #00ff00;
+	/*#border-bottom:3px solid #00ff00;*/
 }
 
 .menu_list a::after{
